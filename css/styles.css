@@ -32,3 +32,69 @@ body{
     overflow: hidden;
     padding: var(--padding-container);
 }
+.hero{
+    background-color: var(--blue-intro);
+    position: relative;
+    color: #fff;
+}
+.hero__wave{
+    position: absolute;
+    background-color: var(--blue-main);
+    bottom: 0;
+    width: 100%;
+    height: 40%;
+}
+.hero__wave::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: -100px;
+    background-image: url(../images/bg-curvy-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: 100% 100px;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    font-family: var(--heading-font);
+}
+.nav__links{
+    margin-left: auto;
+    display: grid;
+    grid-auto-flow: column;
+    gap: 1em;
+}
+.nav__link{
+    color: #fff;
+    text-decoration: none;
+}
+.hero__main{
+    position: relative;
+    text-align: center;
+}
+.nav__img{
+    width: 100%;
+    display: block;
+    max-width: 600px;
+    margin: 0 auto;
+}
+.hero__title{
+    font-family: var(--heading-font);
+    margin: 2.5em 0 1em;
+}
+.hero__paragraph{
+    line-height: 1.5;
+    margin-bottom: 1.5em;
+}
+.hero__cta{
+    display: inline-block;
+    width: 250px;
+    padding: 15px 0;
+    background-image: var(--gradient);
+    color: #fff;
+    font-family: var(--heading-font);
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 30px;
+}
