@@ -54,6 +54,13 @@ body{
     background-repeat: no-repeat;
     background-size: 100% 100px;
 }
+.hero__img{
+    width: 100%;
+    display: block;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-bottom: 3em;
+}
 .nav{
     display: flex;
     align-items: center;
@@ -121,3 +128,37 @@ body{
 .cards__paragraph{
     line-height: 1.5;
 }
+
+/* about */
+
+.about__img{
+    width: 100%;
+    display: block;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-bottom: 3em;
+}
+.about__texts{
+    color: #fff;
+}
+.about__title{
+    font-family: var(--heading-font);
+}
+.about__paragraph{
+    margin-top: 2em;
+    line-height: 1.5;
+}
+.about__cta{
+    margin-top: 1em;
+    display: inline-block;
+    color: var(--cyan-gradient);
+    text-decoration: none;
+    line-height: 2.5;
+    border-bottom: 1px solid var(--cyan-gradient);
+}
+.about__icon{
+    width: 20px;
+    margin-left: .3em;
+    vertical-align: middle;
+}
+
