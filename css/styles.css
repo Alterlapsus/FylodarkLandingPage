@@ -17,7 +17,7 @@
     --gradient: linear-gradient(to right, var(--cyan-gradient), var(--blue-gradient));
     --body-font: 'Open Sans', sans-serif;
     --heading-font: 'Raleway', sans-serif;
-    
+
     --padding-container: 60px 0;
 }
 
@@ -161,4 +161,56 @@ body{
     margin-left: .3em;
     vertical-align: middle;
 }
+.testimony{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+    color: #fff;
+}
+.testimony__item{
+    width: 90%;
+    margin: 0 auto;
+    background-color: var(--blue-testimonials);
+    padding: 2em 1.2em;
+    border-radius: 1px 1px 10px -5px rgba(255, 255, 255, .28);
+    position: relative;
+}
+.testimony__item--first::after{
+    content: "";
+    position: absolute;
+    top: -35px;
+    left: 0;
+    width: 40px;
+    height: 40px;
+    z-index: -1;
+    background-image: url(/images/bg-quotes.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
 
+}
+.testimony__info{
+    margin-top: 1.5em;
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+.testimony__picture{
+    width: 40px;
+    height: 40px;
+}
+.testimony__img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.testimony__name{
+    font-size: 1.2rem;
+    font-family: var(--body-font);
+    margin-bottom: .4em;
+}
+.testimony__job{
+    font-size: .8rem;
+    color: #a1a1a1;
+}
