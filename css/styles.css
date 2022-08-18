@@ -98,3 +98,26 @@ body{
     text-decoration: none;
     border-radius: 30px;
 }
+
+/* cards */
+.cards{
+    text-align: center;
+    display: grid;
+    gap: 5em;
+    color: #fff;
+}
+.cards__img{
+     width: 110px;
+     height: 130px;
+     object-fit: contain;
+     display: block;
+     margin: 0 auto;
+     margin-bottom: 1.5em;
+}
+.cards__title{
+    font-family: var(--heading-font);
+    margin-bottom: 1em;
+}
+.cards__paragraph{
+    line-height: 1.5;
+}
