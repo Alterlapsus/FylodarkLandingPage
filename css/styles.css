@@ -218,5 +218,32 @@ body{
 /* section */
 
 .join{
-
+    background-image: linear-gradient(var(--blue-main) 50%, var(--blue-footer) 50%);
+    padding: 60px 0;
+}
+.join__container{
+    background-color: var(--blue-testimonials);
+    padding: 3.5em 1.5em;
+    border-radius: 15px;
+    text-align: center;
+    color: #fff;
+}
+.join__title{
+    font-family: var(--heading-font);
+    margin-bottom: 1em;
+}
+.join__paragraph{
+    line-height: 1.5;
+    margin-bottom: 1em;
+}
+.join__form{
+    display: grid;
+    gap: 1.2em;
+}
+.join__input{
+    font: inherit;
+    padding: 1em 1.4em;
+    border-radius: 30px;
+    border: none;
+    outline: none;
 }
