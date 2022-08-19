@@ -247,3 +247,9 @@ body{
     border: none;
     outline: none;
 }
+.join__input--submit{
+    background-color: var(--gradient);
+    color: #fff;
+    font-family: var(--heading-font);
+    font-weight: 700;
+}
