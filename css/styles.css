@@ -248,7 +248,7 @@ body{
     outline: none;
 }
 .join__input--submit{
-    background-color: var(--gradient);
+    background-image: var(--gradient);
     color: #fff;
     font-family: var(--heading-font);
     font-weight: 700;
