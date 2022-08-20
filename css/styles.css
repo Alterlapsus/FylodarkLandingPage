@@ -323,3 +323,13 @@ body{
 .footer__media{
     display: block;
 }
+
+/* responsive */
+@media screen and (min-width: 768px) {
+    .hero__wave::before{
+        background-image: url("../images/bg-curvy-desktop.svg");
+    }
+    .hero__title{
+        
+    }
+}
