@@ -30,70 +30,79 @@ body{
     max-width: 1200px;
     margin: 0 auto;
     overflow: hidden;
-    padding: var(--padding-container);
+    padding:var(--padding-container) ;
 }
+
 .hero{
     background-color: var(--blue-intro);
     position: relative;
     color: #fff;
 }
+
 .hero__wave{
     position: absolute;
-    background-color: var(--blue-main);
     bottom: 0;
     width: 100%;
     height: 40%;
+    background-color: var(--blue-main);
 }
+
 .hero__wave::before{
     content: "";
     width: 100%;
-    height: 100%;
+    height: 100px;
     position: absolute;
     top: -100px;
-    background-image: url(../images/bg-curvy-mobile.svg);
+    background-image: url("../images/bg-curvy-mobile.svg");
     background-repeat: no-repeat;
     background-size: 100% 100px;
 }
-.hero__img{
-    width: 100%;
-    display: block;
-    max-width: 600px;
-    margin: 0 auto;
-    margin-bottom: 3em;
-}
+
 .nav{
     display: flex;
     align-items: center;
     font-family: var(--heading-font);
 }
+
+.nav__img{
+    width: 100px;
+    display: block;
+}
+
 .nav__links{
     margin-left: auto;
     display: grid;
     grid-auto-flow: column;
     gap: 1em;
 }
+
 .nav__link{
     color: #fff;
     text-decoration: none;
 }
+
 .hero__main{
-    position: relative;
     text-align: center;
+    position: relative;
 }
-.nav__img{
-    width: 100%;
+
+.hero__img{
     display: block;
-    max-width: 600px;
+    width: 100%;
+    max-width: 500px;
     margin: 0 auto;
 }
+
 .hero__title{
     font-family: var(--heading-font);
     margin: 2.5em 0 1em;
 }
+
 .hero__paragraph{
     line-height: 1.5;
     margin-bottom: 1.5em;
 }
+
 .hero__cta{
     display: inline-block;
     width: 250px;
@@ -134,7 +143,7 @@ body{
 .about__img{
     width: 100%;
     display: block;
-    max-width: 600px;
+    max-width: 500px;
     margin: 0 auto;
     margin-bottom: 3em;
 }
